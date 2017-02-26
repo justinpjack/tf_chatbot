@@ -1,0 +1,8 @@
+Justin modifications to tensorflow_chatbot
+
+data_utils.py - ln49 added unicode encoder to function
+
+test_execute.py - ln260 updated to global_variables_initializer
+test_execute.py - ln122 updated to global_variables_initializer
+
+
