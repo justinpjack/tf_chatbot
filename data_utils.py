@@ -46,7 +46,7 @@ _DIGIT_RE = re.compile(br"\d")
 def basic_tokenizer(sentence):
   """Very basic tokenizer: split the sentence into a list of tokens."""
   #justin - added to convert string
-  sentence = sentence.encode('utf-8')
+  #sentence = sentence.encode('utf-8')
   words = []
   for space_separated_fragment in sentence.strip().split():
     words.extend(re.split(_WORD_SPLIT, space_separated_fragment))
