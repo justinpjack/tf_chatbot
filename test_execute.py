@@ -119,8 +119,8 @@ def create_model(session, forward_only):
   else:
     print("Created model with fresh parameters.")
     #justin - update to global_variables_initializer
-    #session.run(tf.initialize_all_variables())
-    session.run(tf.global_variables_initializer())
+    session.run(tf.initialize_all_variables())
+    #session.run(tf.global_variables_initializer())
   return model
 
 
